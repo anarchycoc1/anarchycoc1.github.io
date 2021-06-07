@@ -1,0 +1,316 @@
+* {
+  font-family: "Alegreya", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cup {
+  display: block;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+ul.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.menu li {
+  text-shadow: 2px 2px 4px #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+ul.menu li a {
+  color: #243f6a;
+  text-decoration: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  font-size: 25px;
+  margin: 0 1px;
+}
+
+ul.menu li a:hover {
+  font-size: 18px;
+  text-decoration: underline;
+  background-color: rgba(255, 41, 212, 0.1);
+  border-radius: 20px;
+}
+
+.content-settings {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  background-color: rgba(214, 214, 214, 0.15);
+  margin: 10px;
+}
+
+.sidebar_l {
+  height: 900px;
+}
+
+.sidebar_r {
+  height: 1200px;
+}
+
+.main {
+  height: 300px;
+  overflow: scroll;
+}
+
+.title {
+  padding: 15px 0 0px 0;
+  font-weight: 700;
+  color: #243f6a;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 12px;
+  width: 20%;
+}
+
+.topfive {
+  font-size: 16px;
+}
+
+.topfive hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.topfive_subtitle {
+  font-size: 18px;
+  color: #a60709;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.topfive_team {
+  color: black;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.topfive_team p {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 14px;
+}
+
+.topfive_team span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0c69b4;
+  padding: 0 5px 0 5px;
+}
+
+.topfive_descr {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #a60709;
+}
+
+.warnews hr {
+  width: 50%;
+}
+
+.warnews_subtitle {
+  font-size: 18px;
+  color: #a60709;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.warnews_results {
+  margin-bottom: 20px;
+}
+
+.warnews_results p {
+  margin-bottom: 10px;
+}
+
+.warnews_results .cw {
+  text-align: center;
+  border: 1px solid #434343;
+  border-radius: 5px;
+  color: #747474;
+  background-color: #e4e4e4;
+  font-size: 15px;
+  padding: 2px 0px 2px 15px;
+  font-weight: 700;
+  margin: 10px 10px;
+}
+
+.warnews_results .win {
+  background-color: #53ca18;
+  color: #fff !important;
+  text-shadow: 1px 0 0px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 0px #000;
+}
+
+.warnews_results .win:hover {
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(83, 202, 24, 0.55);
+          box-shadow: 2px 2px 5px 2px rgba(83, 202, 24, 0.55);
+}
+
+.warnews_results .loss {
+  background-color: #af2828;
+  color: #fff !important;
+  text-shadow: 1px 0 1px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.warnews_results .loss:hover {
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(175, 40, 40, 0.55);
+          box-shadow: 2px 2px 5px 2px rgba(175, 40, 40, 0.55);
+}
+
+.warnews_results .draw {
+  color: #fff !important;
+  text-shadow: 1px 0 1px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.warnews_results .draw:hover {
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(67, 67, 67, 0.55);
+          box-shadow: 2px 2px 5px 2px rgba(67, 67, 67, 0.55);
+}
+
+.mainteam hr {
+  width: 50%;
+}
+
+.mainteam_subtitle {
+  display: inline-block;
+  font-size: 18px;
+  color: #a60709;
+  font-weight: 700;
+  margin: 20px 5px 5px 0;
+}
+
+.mainteam_anarchy {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0c69b4;
+  font-weight: 700;
+}
+
+.mainteam_anarchy:hover {
+  color: #af2828;
+  text-shadow: 2px 2px 4px rgba(175, 40, 40, 0.55);
+}
+
+.mainteam_anarchy:active {
+  color: #434343;
+  text-shadow: 2px 2px 4px rgba(67, 67, 67, 0.55);
+}
+
+.mainteam_time {
+  color: #263c6a;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.mainteam_table {
+  margin: 0 auto;
+  margin-right: 5px;
+  padding: 0 0 20px 15px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 2;
+}
+
+.mainteam_table th {
+  padding: 0 10px 0 5px;
+}
+
+.mainteam_table th span {
+  font-size: 14px;
+  padding: 0 2px 0 10px;
+}
+
+.mainteam_table a {
+  font-size: 14px;
+  color: #0c69b4;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mainteam_table a:hover {
+  color: #a60709;
+  text-shadow: 4px 4px 5px rgba(67, 67, 67, 0.35);
+}
+
+.academyteam hr {
+  width: 50%;
+}
+
+.academyteam_subtitle {
+  display: inline-block;
+  font-size: 18px;
+  color: #a60709;
+  font-weight: 700;
+  margin: 20px 5px 5px 0;
+}
+
+.academyteam_anarchy {
+  font-size: 18px;
+  text-decoration: none;
+  color: #0c69b4;
+  font-weight: 700;
+}
+
+.academyteam_anarchy:hover {
+  color: #af2828;
+  text-shadow: 2px 2px 4px rgba(175, 40, 40, 0.55);
+}
+
+.academyteam_anarchy:active {
+  color: #434343;
+  text-shadow: 2px 2px 4px rgba(67, 67, 67, 0.55);
+}
+
+.academyteam_time {
+  color: #263c6a;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.academyteam_table {
+  margin: 0 auto;
+  margin-right: 5px;
+  padding: 0 0 20px 15px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 2;
+}
+
+.academyteam_table th {
+  padding: 0 10px 0 5px;
+}
+
+.academyteam_table th span {
+  font-size: 14px;
+  padding: 0 2px 0 10px;
+}
+
+.academyteam_table a {
+  font-size: 14px;
+  color: #0c69b4;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.academyteam_table a:hover {
+  color: #a60709;
+  text-shadow: 4px 4px 5px rgba(67, 67, 67, 0.35);
+}

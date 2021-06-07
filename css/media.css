@@ -1,0 +1,355 @@
+@media (min-width: 1280px) and (max-width: 1399px) {
+  .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 1250px;
+  }
+  .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 500px;
+  }
+  .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    height: 1450px;
+  }
+  .content-settings {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  nav .menu li a {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .topfive_subtitle {
+    font-size: 25px;
+  }
+  .topfive_team {
+    margin-left: -20px;
+  }
+  .topfive_team p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .topfive_team p span {
+    font-size: 20px;
+  }
+  .topfive_descr {
+    font-size: 18px;
+  }
+  .mainteam_subtitle {
+    font-size: 25px;
+  }
+  .mainteam_time {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .mainteam_anarchy {
+    font-size: 27px;
+    font-weight: 700;
+  }
+  .mainteam table {
+    margin: 0 auto;
+    margin-right: 80px;
+  }
+  .mainteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .mainteam table th span {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .mainteam table a {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .academyteam_subtitle {
+    font-size: 25px;
+  }
+  .academyteam_time {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .academyteam_anarchy {
+    font-size: 27px;
+    font-weight: 700;
+  }
+  .academyteam table {
+    margin: 0 auto;
+    margin-right: 80px;
+  }
+  .academyteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .academyteam table th span {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .academyteam table a {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .warnews_subtitle {
+    font-size: 25px;
+  }
+  .warnews_results .cw {
+    text-align: center;
+    font-size: 25px;
+    padding: 2px 0px 2px 15px;
+    margin: 15px 20px;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 1250px;
+  }
+  .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 500px;
+  }
+  .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    height: 1450px;
+  }
+  nav .menu li a {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .topfive_subtitle {
+    font-size: 20px;
+  }
+  .topfive_team p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .topfive_team p span {
+    font-size: 16px;
+  }
+  .topfive_descr {
+    font-size: 16px;
+  }
+  .warnews_subtitle {
+    font-size: 20px;
+  }
+  .warnews_results .cw {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+    margin: 15px 20px;
+  }
+  .mainteam_subtitle {
+    font-size: 20px;
+  }
+  .mainteam_time {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .mainteam_anarchy {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .mainteam table {
+    margin: 0 auto;
+    margin-right: 60px;
+  }
+  .mainteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .mainteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .mainteam table a {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .academyteam_subtitle {
+    font-size: 20px;
+  }
+  .academyteam_time {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .academyteam_anarchy {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .academyteam table {
+    margin: 0 auto;
+    margin-right: 70px;
+  }
+  .academyteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .academyteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .academyteam table a {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 1250px;
+  }
+  .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 500px;
+  }
+  .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    height: 1450px;
+  }
+  nav .menu li a {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 100%;
+    margin: 15px 0 15px 0;
+  }
+  .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 300px;
+  }
+  .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    height: 100%px;
+    margin-bottom: 20px;
+  }
+  .content-settings {
+    margin: 0px;
+  }
+  nav .menu li a {
+    font-size: 8px;
+    padding-left: 15px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .topfive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .topfive_subtitle {
+    font-size: 14px;
+  }
+  .topfive_team hr {
+    margin-top: 20px;
+  }
+  .topfive_team p {
+    font-size: 10px;
+    line-height: 26px;
+    margin: 0;
+  }
+  .topfive_team p span {
+    font-size: 12px;
+  }
+  .topfive_descr {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  .warnews_subtitle {
+    font-size: 14px;
+  }
+  .warnews_results .cw {
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    margin: 15px 20px;
+  }
+  .mainteam_subtitle {
+    font-size: 14px;
+  }
+  .mainteam_time {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .mainteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .mainteam table {
+    margin: 0 auto;
+  }
+  .mainteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .mainteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .mainteam table a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .academyteam_subtitle {
+    font-size: 14px;
+  }
+  .academyteam_time {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .academyteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .academyteam table {
+    margin: 0 auto;
+  }
+  .academyteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .academyteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .academyteam table a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,274 @@
+* {
+  font-family: "Alegreya", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cup {
+  display: block;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+ul.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & li {
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style-type: none;
+    & a {
+      color: #243f6a;
+      text-decoration: none;
+      transition: 0.5s all;
+      font-size: 25px;
+      margin: 0 1px;
+      &:hover {
+        font-size: 18px;
+        text-decoration: underline;
+        background-color: hsla(312, 100%, 58%, 0.1);
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.content-settings {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 84%, 0.15);
+  margin: 10px;
+}
+
+.sidebar_l {
+  height: 900px;
+}
+
+.sidebar_r {
+  height: 1200px;
+}
+
+.main {
+  height: 300px;
+  overflow: scroll;
+}
+
+.title {
+  padding: 15px 0 0px 0;
+  font-weight: 700;
+  color: #243f6a;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 12px;
+  width: 20%;
+}
+
+.topfive {
+  font-size: 16px;
+  & hr {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &_subtitle {
+    font-size: 18px;
+    color: #a60709;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  &_team {
+    color: black;
+    font-weight: 700;
+    line-height: 18px;
+    & p {
+      text-align: left;
+      margin-left: 60px;
+      font-size: 14px;
+    }
+    & span {
+      font-size: 14px;
+      font-weight: 700;
+      color: #0c69b4;
+      padding: 0 5px 0 5px;
+    }
+  }
+  &_descr {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a60709;
+  }
+}
+
+.warnews {
+  & hr {
+    width: 50%;
+  }
+  &_subtitle {
+    font-size: 18px;
+    color: #a60709;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  &_results {
+    margin-bottom: 20px;
+    & p {
+      margin-bottom: 10px;
+    }
+    & .cw {
+      text-align: center;
+      border: 1px solid #434343;
+      border-radius: 5px;
+      color: #747474;
+      background-color: #e4e4e4;
+      font-size: 15px;
+      padding: 2px 0px 2px 15px;
+      font-weight: 700;
+      margin: 10px 10px;
+    }
+    & .win {
+      background-color: /*#00D500;*/ rgba(83, 202, 24, 1);
+      color: #fff !important;
+      text-shadow: 1px 0 0px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 0px #000;
+      &:hover {
+        box-shadow: 2px 2px 5px 2px rgba(83, 202, 24, 0.55);
+      }
+    }
+    & .loss {
+      background-color: /*#FF0800;*/ #af2828;
+      color: #fff !important;
+      text-shadow: 1px 0 1px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+      &:hover {
+        box-shadow: 2px 2px 5px 2px rgba(175, 40, 40, 0.55);
+      }
+    }
+    & .draw {
+      color: #fff !important;
+      text-shadow: 1px 0 1px #000, 0 2px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+      &:hover {
+        box-shadow: 2px 2px 5px 2px rgba(67, 67, 67, 0.55);
+      }
+    }
+  }
+}
+
+.mainteam {
+  & hr {
+    width: 50%;
+  }
+  &_subtitle {
+    display: inline-block;
+    font-size: 18px;
+    color: #a60709;
+    font-weight: 700;
+    margin: 20px 5px 5px 0;
+  }
+  &_anarchy {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c69b4;
+    font-weight: 700;
+    &:hover {
+      color: #af2828;
+      text-shadow: 2px 2px 4px rgba(175, 40, 40, 0.55);
+    }
+    &:active {
+      color: rgba(67, 67, 67, 1);
+      text-shadow: 2px 2px 4px rgba(67, 67, 67, 0.55);
+    }
+  }
+  &_time {
+    color: #263c6a;
+    font-weight: 700;
+    opacity: 0.8;
+  }
+  &_table {
+    margin: 0 auto;
+    margin-right: 5px;
+    padding: 0 0 20px 15px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 2;
+    & th {
+      padding: 0 10px 0 5px;
+      & span {
+        font-size: 14px;
+        padding: 0 2px 0 10px;
+      }
+    }
+    & a {
+      font-size: 14px;
+      color: #0c69b4;
+      font-weight: 700;
+      text-decoration: none;
+      &:hover {
+        color: #a60709;
+        text-shadow: 4px 4px 5px rgba(67, 67, 67, 0.35);
+      }
+    }
+  }
+}
+
+.academyteam {
+  & hr {
+    width: 50%;
+  }
+  &_subtitle {
+    display: inline-block;
+    font-size: 18px;
+    color: #a60709;
+    font-weight: 700;
+    margin: 20px 5px 5px 0;
+  }
+  &_anarchy {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0c69b4;
+    font-weight: 700;
+    &:hover {
+      color: #af2828;
+      text-shadow: 2px 2px 4px rgba(175, 40, 40, 0.55);
+    }
+    &:active {
+      color: rgba(67, 67, 67, 1);
+      text-shadow: 2px 2px 4px rgba(67, 67, 67, 0.55);
+    }
+  }
+  &_time {
+    color: #263c6a;
+    font-weight: 700;
+    opacity: 0.8;
+  }
+  &_table {
+    margin: 0 auto;
+    margin-right: 5px;
+    padding: 0 0 20px 15px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 2;
+    & th {
+      padding: 0 10px 0 5px;
+      & span {
+        font-size: 14px;
+        padding: 0 2px 0 10px;
+      }
+    }
+    & a {
+      font-size: 14px;
+      color: #0c69b4;
+      font-weight: 700;
+      text-decoration: none;
+      &:hover {
+        color: #a60709;
+        text-shadow: 4px 4px 5px rgba(67, 67, 67, 0.35);
+      }
+    }
+  }
+}
