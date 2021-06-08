@@ -423,13 +423,22 @@
 
 @media (max-width: 575px) {
   .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     height: 100%;
     margin: 15px 0 15px 0;
   }
   .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     height: 300px;
   }
   .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     height: 100%;
     margin-bottom: 20px;
   }
@@ -612,6 +621,210 @@
   }
   .academyteam table a {
     font-size: 14px;
+    padding-left: 10px;
+  }
+  .academyteam hr {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 381px) {
+  .content .sidebar_l {
+    height: 100%;
+    margin: 15px 0 15px 0;
+  }
+  .content .main {
+    height: 300px;
+  }
+  .content .sidebar_r {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .menu {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(38, 61, 105, 0.8);
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  .menu_link {
+    font-size: 20px;
+  }
+  ul.menu li a {
+    padding-top: 30px;
+    margin-bottom: 200px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 3%;
+    top: 3%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 20px;
+    height: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 3px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: translateY(3px) rotate(-45deg);
+            transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: translateY(3px) rotate(45deg);
+            transform: translateY(3px) rotate(45deg);
+  }
+  .title {
+    font-size: 18px;
+  }
+  .topfive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .topfive_subtitle {
+    font-size: 16px;
+  }
+  .topfive_team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .topfive_team hr {
+    margin-top: 20px;
+  }
+  .topfive_team p {
+    font-size: 12px;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 40px;
+  }
+  .topfive_team p span {
+    font-size: 14px;
+  }
+  .topfive_descr {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .warnews_subtitle {
+    font-size: 16px;
+  }
+  .warnews_results .cw {
+    text-align: center;
+    font-size: 14px;
+    padding: 2px 0px 2px 0px;
+    margin: 15px 20px;
+  }
+  .mainteam_subtitle {
+    font-size: 14px;
+  }
+  .mainteam_time {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .mainteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .mainteam table {
+    margin: 0 auto;
+    margin: 0 10px 0 10px;
+  }
+  .mainteam table th {
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+    font-size: 10px;
+  }
+  .mainteam table th span {
+    padding-left: 20px;
+    font-size: 10px;
+  }
+  .mainteam table a {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .mainteam hr {
+    margin-top: 25px;
+  }
+  .academyteam_subtitle {
+    font-size: 14px;
+  }
+  .academyteam_time {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .academyteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .academyteam table {
+    margin: 0 auto;
+    margin: 0 10px 0 10px;
+  }
+  .academyteam table th {
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+    font-size: 10px;
+  }
+  .academyteam table th span {
+    padding-left: 20px;
+    font-size: 10px;
+  }
+  .academyteam table a {
+    font-size: 10px;
     padding-left: 10px;
   }
   .academyteam hr {
