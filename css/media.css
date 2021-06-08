@@ -452,7 +452,7 @@
     display: block;
     position: fixed;
     right: 3%;
-    top: 5%;
+    top: 3%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 26px;
@@ -482,7 +482,7 @@
             transform: translateY(3px) rotate(45deg);
   }
   .title {
-    font-size: 16px;
+    font-size: 28px;
   }
   .topfive {
     display: -webkit-box;
@@ -497,7 +497,7 @@
             align-items: center;
   }
   .topfive_subtitle {
-    font-size: 14px;
+    font-size: 22px;
   }
   .topfive_team {
     display: -webkit-box;
@@ -515,13 +515,13 @@
     margin-top: 20px;
   }
   .topfive_team p {
-    font-size: 10px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 40px;
     margin: 0;
-    margin-left: 25px;
+    margin-left: 45px;
   }
   .topfive_team p span {
-    font-size: 12px;
+    font-size: 18px;
   }
   .topfive_descr {
     font-size: 12px;
