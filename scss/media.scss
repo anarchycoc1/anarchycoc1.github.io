@@ -304,7 +304,7 @@
   .hamburger {
     display: block;
     position: absolute;
-    right: 120px;
+    right: 3%;
     top: 5%;
     transform: translateY(-50%);
     width: 26px;
@@ -351,6 +351,163 @@
         font-size: 10px;
         line-height: 26px;
         margin: 0;
+        & span {
+          font-size: 12px;
+        }
+      }
+    }
+    &_descr {
+      font-size: 12px;
+      margin-bottom: 25px;
+    }
+  }
+  .warnews {
+    &_subtitle {
+      font-size: 14px;
+    }
+    &_results {
+      & .cw {
+        text-align: center;
+        font-size: 12px;
+        padding: 2px 0px 2px 0px;
+        margin: 15px 20px;
+      }
+    }
+  }
+  .mainteam {
+    &_subtitle {
+      font-size: 14px;
+    }
+    &_time {
+      font-weight: 700;
+      font-size: 12px;
+    }
+    &_anarchy {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    & table {
+      margin: 0 auto;
+      & th {
+        padding: 0 10px 0 10px;
+        & span {
+          padding-left: 20px;
+          font-size: 16px;
+        }
+      }
+      & a {
+        font-size: 14px;
+        padding-left: 10px;
+      }
+    }
+  }
+  .academyteam {
+    &_subtitle {
+      font-size: 14px;
+    }
+    &_time {
+      font-weight: 700;
+      font-size: 12px;
+    }
+    &_anarchy {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    & table {
+      margin: 0 auto;
+      & th {
+        padding: 0 10px 0 10px;
+        & span {
+          padding-left: 20px;
+          font-size: 16px;
+        }
+      }
+      & a {
+        font-size: 14px;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(38, 61, 105, 0.8);
+    transition: 0.6s all;
+    &_active {
+      left: 0;
+    }
+    &_item {
+      padding-right: 0;
+      border: none;
+      margin: 10px 0;
+    }
+    &_link {
+      font-size: 20px;
+    }
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 3%; //120px
+    top: 5%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+    span {
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: #000;
+      margin-bottom: 3px;
+      transition: 0.5s all;
+    }
+    &_active {
+      span {
+        margin-bottom: -2px;
+        &:nth-child(1) {
+          transform: translateY(3px) rotate(-45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          transform: translateY(3px) rotate(45deg);
+        }
+      }
+    }
+  }
+  .title {
+    font-size: 16px;
+  }
+  .topfive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_subtitle {
+      font-size: 14px;
+    }
+    &_team {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      & hr {
+        margin-top: 20px;
+      }
+      & p {
+        font-size: 10px;
+        line-height: 26px;
+        margin: 0;
+        margin-left: 25px;
         & span {
           font-size: 12px;
         }

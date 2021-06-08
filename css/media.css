@@ -292,7 +292,7 @@
   .hamburger {
     display: block;
     position: absolute;
-    right: 120px;
+    right: 3%;
     top: 5%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -346,6 +346,179 @@
     font-size: 10px;
     line-height: 26px;
     margin: 0;
+  }
+  .topfive_team p span {
+    font-size: 12px;
+  }
+  .topfive_descr {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  .warnews_subtitle {
+    font-size: 14px;
+  }
+  .warnews_results .cw {
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    margin: 15px 20px;
+  }
+  .mainteam_subtitle {
+    font-size: 14px;
+  }
+  .mainteam_time {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .mainteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .mainteam table {
+    margin: 0 auto;
+  }
+  .mainteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .mainteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .mainteam table a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .academyteam_subtitle {
+    font-size: 14px;
+  }
+  .academyteam_time {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .academyteam_anarchy {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .academyteam table {
+    margin: 0 auto;
+  }
+  .academyteam table th {
+    padding: 0 10px 0 10px;
+  }
+  .academyteam table th span {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .academyteam table a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .menu {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(38, 61, 105, 0.8);
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  .menu_link {
+    font-size: 20px;
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 3%;
+    top: 5%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 3px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: translateY(3px) rotate(-45deg);
+            transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: translateY(3px) rotate(45deg);
+            transform: translateY(3px) rotate(45deg);
+  }
+  .title {
+    font-size: 16px;
+  }
+  .topfive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .topfive_subtitle {
+    font-size: 14px;
+  }
+  .topfive_team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .topfive_team hr {
+    margin-top: 20px;
+  }
+  .topfive_team p {
+    font-size: 10px;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 25px;
   }
   .topfive_team p span {
     font-size: 12px;
