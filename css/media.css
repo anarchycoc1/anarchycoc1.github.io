@@ -251,7 +251,7 @@
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-    height: 100%px;
+    height: 100%;
     margin-bottom: 20px;
   }
   .content-settings {
@@ -416,6 +416,17 @@
 }
 
 @media (max-width: 575px) {
+  .content .sidebar_l {
+    height: 100%;
+    margin: 15px 0 15px 0;
+  }
+  .content .main {
+    height: 300px;
+  }
+  .content .sidebar_r {
+    height: 100%;
+    margin-bottom: 20px;
+  }
   .menu {
     position: fixed;
     -webkit-box-orient: vertical;
@@ -482,7 +493,7 @@
             transform: translateY(3px) rotate(45deg);
   }
   .title {
-    font-size: 28px;
+    font-size: 18px;
   }
   .topfive {
     display: -webkit-box;
@@ -497,7 +508,7 @@
             align-items: center;
   }
   .topfive_subtitle {
-    font-size: 22px;
+    font-size: 16px;
   }
   .topfive_team {
     display: -webkit-box;
@@ -515,36 +526,36 @@
     margin-top: 20px;
   }
   .topfive_team p {
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 12px;
+    line-height: 26px;
     margin: 0;
-    margin-left: 45px;
+    margin-left: 40px;
   }
   .topfive_team p span {
-    font-size: 18px;
+    font-size: 14px;
   }
   .topfive_descr {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 25px;
   }
   .warnews_subtitle {
-    font-size: 14px;
+    font-size: 16px;
   }
   .warnews_results .cw {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     padding: 2px 0px 2px 0px;
     margin: 15px 20px;
   }
   .mainteam_subtitle {
-    font-size: 14px;
+    font-size: 16px;
   }
   .mainteam_time {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
   }
   .mainteam_anarchy {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
   .mainteam table {
@@ -555,21 +566,21 @@
   }
   .mainteam table th span {
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .mainteam table a {
     font-size: 14px;
     padding-left: 10px;
   }
   .academyteam_subtitle {
-    font-size: 14px;
+    font-size: 16px;
   }
   .academyteam_time {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
   }
   .academyteam_anarchy {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
   .academyteam table {
@@ -580,7 +591,7 @@
   }
   .academyteam table th span {
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .academyteam table a {
     font-size: 14px;

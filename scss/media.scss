@@ -270,7 +270,7 @@
     }
     .sidebar_r {
       order: 3;
-      height: 100%px;
+      height: 100%;
       margin-bottom: 20px;
     }
   }
@@ -431,6 +431,19 @@
 }
 
 @media (max-width: 575px) {
+  .content {
+    .sidebar_l {
+      height: 100%;
+      margin: 15px 0 15px 0;
+    }
+    .main {
+      height: 300px;
+    }
+    .sidebar_r {
+      height: 100%;
+      margin-bottom: 20px;
+    }
+  }
   .menu {
     position: fixed;
     flex-direction: column;
@@ -487,14 +500,14 @@
     }
   }
   .title {
-    font-size: 28px;
+    font-size: 18px;
   }
   .topfive {
     display: flex;
     flex-direction: column;
     align-items: center;
     &_subtitle {
-      font-size: 22px;
+      font-size: 16px;
     }
     &_team {
       display: flex;
@@ -504,28 +517,28 @@
         margin-top: 20px;
       }
       & p {
-        font-size: 18px;
-        line-height: 40px;
+        font-size: 12px;
+        line-height: 26px;
         margin: 0;
-        margin-left: 45px;
+        margin-left: 40px;
         & span {
-          font-size: 18px;
+          font-size: 14px;
         }
       }
     }
     &_descr {
-      font-size: 12px;
+      font-size: 14px;
       margin-bottom: 25px;
     }
   }
   .warnews {
     &_subtitle {
-      font-size: 14px;
+      font-size: 16px;
     }
     &_results {
       & .cw {
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         padding: 2px 0px 2px 0px;
         margin: 15px 20px;
       }
@@ -533,14 +546,14 @@
   }
   .mainteam {
     &_subtitle {
-      font-size: 14px;
+      font-size: 16px;
     }
     &_time {
       font-weight: 700;
-      font-size: 12px;
+      font-size: 14px;
     }
     &_anarchy {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
     }
     & table {
@@ -549,7 +562,7 @@
         padding: 0 10px 0 10px;
         & span {
           padding-left: 20px;
-          font-size: 16px;
+          font-size: 14px;
         }
       }
       & a {
@@ -560,14 +573,14 @@
   }
   .academyteam {
     &_subtitle {
-      font-size: 14px;
+      font-size: 16px;
     }
     &_time {
       font-weight: 700;
-      font-size: 12px;
+      font-size: 14px;
     }
     &_anarchy {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
     }
     & table {
@@ -576,7 +589,7 @@
         padding: 0 10px 0 10px;
         & span {
           padding-left: 20px;
-          font-size: 16px;
+          font-size: 14px;
         }
       }
       & a {
