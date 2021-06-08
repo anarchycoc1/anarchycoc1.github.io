@@ -1,3 +1,21 @@
+@media (min-width: 1400px) {
+  .topfive_team .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .topfive_team .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .topfive_team .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 15px;
+  }
+}
+
 @media (min-width: 1280px) and (max-width: 1399px) {
   .content .sidebar_l {
     -webkit-box-ordinal-group: 3;
@@ -15,7 +33,7 @@
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-    height: 1450px;
+    height: 100%;
   }
   .content-settings {
     border: 2px solid rgba(0, 0, 0, 0.1);
@@ -24,31 +42,47 @@
     font-size: 20px;
     padding-left: 15px;
   }
+  .topfive .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .topfive .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .topfive .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 18px;
+  }
   .topfive_subtitle {
-    font-size: 25px;
+    font-size: 20px;
+    margin: 20px 20px 40px 30px;
   }
   .topfive_team {
     margin-left: -20px;
   }
   .topfive_team p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
   }
   .topfive_team p span {
-    font-size: 20px;
+    font-size: 18px;
   }
   .topfive_descr {
     font-size: 18px;
   }
   .mainteam_subtitle {
-    font-size: 25px;
+    font-size: 20px;
   }
   .mainteam_time {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
   }
   .mainteam_anarchy {
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 700;
   }
   .mainteam table {
@@ -60,21 +94,21 @@
   }
   .mainteam table th span {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .mainteam table a {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
   }
   .academyteam_subtitle {
-    font-size: 25px;
+    font-size: 20px;
   }
   .academyteam_time {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
   }
   .academyteam_anarchy {
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 700;
   }
   .academyteam table {
@@ -86,23 +120,23 @@
   }
   .academyteam table th span {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .academyteam table a {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
   }
   .warnews_subtitle {
-    font-size: 25px;
+    font-size: 20px;
   }
   .warnews_results .cw {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     padding: 2px 0px 2px 15px;
     margin: 15px 20px;
   }
   .title {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -130,39 +164,57 @@
     padding-left: 15px;
   }
   .title {
-    font-size: 25px;
-  }
-  .topfive_subtitle {
     font-size: 20px;
   }
+  .topfive .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive_subtitle {
+    font-size: 18px;
+    margin: 20px 20px 2s0px 0;
+  }
   .topfive_team p {
-    font-size: 16px;
+    margin-left: 90px;
+    font-size: 14px;
     line-height: 26px;
   }
   .topfive_team p span {
-    font-size: 16px;
+    font-size: 14px;
   }
   .topfive_descr {
-    font-size: 16px;
+    margin-right: 20px;
+    font-size: 14px;
   }
   .warnews_subtitle {
-    font-size: 20px;
+    font-size: 18px;
   }
   .warnews_results .cw {
     text-align: center;
-    font-size: 20px;
-    padding: 5px 0px 5px 0px;
+    font-size: 16px;
+    padding: 3px 0px 3px 0px;
     margin: 15px 20px;
   }
   .mainteam_subtitle {
-    font-size: 20px;
+    font-size: 18px;
   }
   .mainteam_time {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
   }
   .mainteam_anarchy {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
   }
   .mainteam table {
@@ -171,39 +223,41 @@
   }
   .mainteam table th {
     padding: 0 10px 0 10px;
+    font-size: 14px;
   }
   .mainteam table th span {
-    padding-left: 20px;
-    font-size: 16px;
+    padding-left: 30px;
+    font-size: 14px;
   }
   .mainteam table a {
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 10px;
   }
   .academyteam_subtitle {
-    font-size: 20px;
+    font-size: 18px;
   }
   .academyteam_time {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
   }
   .academyteam_anarchy {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
   }
   .academyteam table {
     margin: 0 auto;
-    margin-right: 70px;
+    margin-right: 60px;
   }
   .academyteam table th {
     padding: 0 10px 0 10px;
+    font-size: 14px;
   }
   .academyteam table th span {
-    padding-left: 20px;
-    font-size: 16px;
+    padding-left: 30px;
+    font-size: 14px;
   }
   .academyteam table a {
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 10px;
   }
 }
@@ -230,6 +284,21 @@
   nav .menu li a {
     font-size: 14px;
     padding-left: 15px;
+  }
+  .topfive .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 14px;
   }
 }
 
@@ -271,7 +340,7 @@
             align-items: center;
     top: 0;
     left: -100%;
-    width: 40%;
+    width: 50%;
     height: 100vh;
     padding: 20px 15px;
     background-color: rgba(38, 61, 105, 0.8);
@@ -342,6 +411,21 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .topfive .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 10px;
+  }
+  .topfive .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 10px;
+  }
+  .topfive .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 10px;
+  }
   .topfive_subtitle {
     font-size: 14px;
   }
@@ -354,7 +438,7 @@
     margin: 0;
   }
   .topfive_team p span {
-    font-size: 12px;
+    font-size: 10px;
   }
   .topfive_descr {
     font-size: 12px;
@@ -382,6 +466,7 @@
   }
   .mainteam table {
     margin: 0 auto;
+    margin-left: 70px;
   }
   .mainteam table th {
     padding: 0 10px 0 10px;
@@ -407,6 +492,7 @@
   }
   .academyteam table {
     margin: 0 auto;
+    margin-left: 70px;
   }
   .academyteam table th {
     padding: 0 10px 0 10px;
@@ -441,6 +527,9 @@
             order: 3;
     height: 100%;
     margin-bottom: 20px;
+  }
+  .content-settings {
+    border: 2px solid rgba(0, 0, 0, 0.1);
   }
   .menu {
     position: fixed;
@@ -528,6 +617,21 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .topfive .gold {
+    color: gold;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .silver {
+    color: silver;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .topfive .bronze {
+    color: #cd7f32;
+    font-weight: 900;
+    font-size: 14px;
+  }
   .topfive_subtitle {
     font-size: 16px;
   }
@@ -568,6 +672,9 @@
     padding: 2px 0px 2px 0px;
     margin: 15px 20px;
   }
+  .mainteam {
+    margin-right: 20px;
+  }
   .mainteam_subtitle {
     font-size: 16px;
   }
@@ -596,6 +703,9 @@
   }
   .mainteam hr {
     margin-top: 25px;
+  }
+  .academyteam {
+    margin-right: 20px;
   }
   .academyteam_subtitle {
     font-size: 16px;
@@ -674,8 +784,8 @@
   }
   ul.menu li a {
     padding-top: 30px;
-    margin-bottom: 200px;
-    font-size: 18px;
+    margin-bottom: 300px;
+    font-size: 12px;
     color: #fff;
   }
   .hamburger {
@@ -789,10 +899,10 @@
   }
   .mainteam table th span {
     padding-left: 20px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .mainteam table a {
-    font-size: 10px;
+    font-size: 9px;
     padding-left: 10px;
   }
   .mainteam hr {
@@ -821,10 +931,10 @@
   }
   .academyteam table th span {
     padding-left: 20px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .academyteam table a {
-    font-size: 10px;
+    font-size: 9px;
     padding-left: 10px;
   }
   .academyteam hr {
