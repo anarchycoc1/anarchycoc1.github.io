@@ -44,6 +44,10 @@ ul.menu li a:hover {
   border-radius: 20px;
 }
 
+.hamburger {
+  display: none;
+}
+
 .content-settings {
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.06);
