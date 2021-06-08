@@ -284,7 +284,7 @@
     align-items: center;
     top: 0;
     left: -100%;
-    width: 50%;
+    width: 40%;
     height: 100vh;
     padding: 20px 15px;
     background-color: rgba(38, 61, 105, 0.8);
@@ -301,14 +301,24 @@
       font-size: 20px;
     }
   }
+  ul.menu {
+    li {
+      a {
+        padding-top: 30px;
+        margin-bottom: 200px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
   .hamburger {
     display: block;
-    position: absolute;
-    right: 3%;
-    top: 5%;
+    position: fixed;
+    right: 8%; //120px
+    top: 3%;
     transform: translateY(-50%);
-    width: 26px;
-    height: 12px;
+    width: 30px;
+    height: 18px;
     span {
       display: block;
       height: 2px;
@@ -468,6 +478,16 @@
       font-size: 20px;
     }
   }
+  ul.menu {
+    li {
+      a {
+        padding-top: 30px;
+        margin-bottom: 200px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
   .hamburger {
     display: block;
     position: fixed;
@@ -549,6 +569,7 @@
       font-size: 16px;
     }
     &_time {
+      margin-bottom: 15px;
       font-weight: 700;
       font-size: 14px;
     }
@@ -558,6 +579,7 @@
     }
     & table {
       margin: 0 auto;
+
       & th {
         padding: 0 10px 0 10px;
         & span {
@@ -569,6 +591,9 @@
         font-size: 14px;
         padding-left: 10px;
       }
+    }
+    hr {
+      margin-top: 25px;
     }
   }
   .academyteam {
@@ -578,6 +603,7 @@
     &_time {
       font-weight: 700;
       font-size: 14px;
+      margin-bottom: 15px;
     }
     &_anarchy {
       font-size: 18px;
@@ -596,6 +622,9 @@
         font-size: 14px;
         padding-left: 10px;
       }
+    }
+    hr {
+      margin-top: 25px;
     }
   }
 }
