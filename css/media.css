@@ -604,6 +604,7 @@
   }
   .title {
     font-size: 18px;
+    font-weight: 900;
   }
   .topfive {
     display: -webkit-box;
@@ -634,6 +635,7 @@
   }
   .topfive_subtitle {
     font-size: 16px;
+    font-weight: 900;
   }
   .topfive_team {
     display: -webkit-box;
@@ -655,9 +657,11 @@
     line-height: 26px;
     margin: 0;
     margin-left: 40px;
+    font-weight: 900;
   }
   .topfive_team p span {
     font-size: 14px;
+    font-weight: 900;
   }
   .topfive_descr {
     font-size: 14px;

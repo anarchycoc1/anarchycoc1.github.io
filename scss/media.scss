@@ -615,6 +615,7 @@
   }
   .title {
     font-size: 18px;
+    font-weight: 900;
   }
   .topfive {
     display: flex;
@@ -637,6 +638,7 @@
     }
     &_subtitle {
       font-size: 16px;
+      font-weight: 900;
     }
     &_team {
       display: flex;
@@ -650,8 +652,10 @@
         line-height: 26px;
         margin: 0;
         margin-left: 40px;
+        font-weight: 900;
         & span {
           font-size: 14px;
+          font-weight: 900;
         }
       }
     }
