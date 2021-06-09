@@ -521,6 +521,10 @@
             order: 1;
     height: 300px;
   }
+  .content .main img {
+    width: 50%;
+    height: 150px;
+  }
   .content .sidebar_r {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
@@ -696,13 +700,14 @@
   }
   .mainteam table th {
     padding: 0 10px 0 10px;
+    font-size: 12px;
   }
   .mainteam table th span {
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .mainteam table a {
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 10px;
   }
   .mainteam hr {
@@ -728,13 +733,14 @@
   }
   .academyteam table th {
     padding: 0 10px 0 10px;
+    font-size: 12px;
   }
   .academyteam table th span {
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .academyteam table a {
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 10px;
   }
   .academyteam hr {
@@ -911,6 +917,14 @@
   }
   .mainteam hr {
     margin-top: 25px;
+  }
+  .mainteam .modal-header img {
+    margin: 0;
+    padding-left: 40px;
+  }
+  .mainteam .manual p {
+    padding-left: 60px;
+    margin: 0;
   }
   .academyteam_subtitle {
     font-size: 14px;

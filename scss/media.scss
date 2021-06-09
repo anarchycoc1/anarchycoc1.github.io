@@ -538,6 +538,10 @@
     .main {
       order: 1;
       height: 300px;
+      img {
+        width: 50%;
+        height: 150px;
+      }
     }
     .sidebar_r {
       order: 3;
@@ -696,13 +700,14 @@
 
       & th {
         padding: 0 10px 0 10px;
+        font-size: 12px;
         & span {
           padding-left: 20px;
-          font-size: 14px;
+          font-size: 12px;
         }
       }
       & a {
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 10px;
       }
     }
@@ -728,13 +733,14 @@
       margin: 0 auto;
       & th {
         padding: 0 10px 0 10px;
+        font-size: 12px;
         & span {
           padding-left: 20px;
-          font-size: 14px;
+          font-size: 12px;
         }
       }
       & a {
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 10px;
       }
     }
@@ -900,6 +906,20 @@
     }
     hr {
       margin-top: 25px;
+    }
+    .modal-header {
+      img {
+        margin: 0;
+        padding-left: 40px;
+      }
+      .modal-anarchy-title {
+      }
+    }
+    .manual {
+      p {
+        padding-left: 60px;
+        margin: 0;
+      }
     }
   }
   .academyteam {
