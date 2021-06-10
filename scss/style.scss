@@ -14,6 +14,9 @@ ul.menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  .item-disabled {
+    display: none;
+  }
   & li {
     text-shadow: 2px 2px 4px #000;
     font-weight: 700;

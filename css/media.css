@@ -44,22 +44,23 @@
   }
   .topfive .gold {
     color: gold;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
   }
   .topfive .silver {
     color: silver;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
   }
   .topfive .bronze {
     color: #cd7f32;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
   }
   .topfive_subtitle {
     font-size: 20px;
     margin: 20px 20px 40px 30px;
+    font-weight: 700;
   }
   .topfive_team {
     margin-left: -20px;
@@ -183,7 +184,7 @@
   }
   .topfive_subtitle {
     font-size: 18px;
-    margin: 20px 20px 2s0px 0;
+    margin: 20px 20px 20px 0;
   }
   .topfive_team p {
     margin-left: 90px;
@@ -219,7 +220,7 @@
   }
   .mainteam table {
     margin: 0 auto;
-    margin-right: 60px;
+    margin-right: 20%;
   }
   .mainteam table th {
     padding: 0 10px 0 10px;
@@ -246,7 +247,7 @@
   }
   .academyteam table {
     margin: 0 auto;
-    margin-right: 60px;
+    margin-right: 22%;
   }
   .academyteam table th {
     padding: 0 10px 0 10px;
@@ -299,6 +300,9 @@
     color: #cd7f32;
     font-weight: 900;
     font-size: 14px;
+  }
+  .topfive_team p {
+    margin-left: 15%;
   }
 }
 
@@ -357,6 +361,9 @@
   }
   .menu_link {
     font-size: 20px;
+  }
+  ul.menu .item-disabled {
+    display: block;
   }
   ul.menu li a {
     padding-top: 30px;
@@ -567,6 +574,11 @@
   .menu_link {
     font-size: 20px;
   }
+  ul.menu .item-disabled {
+    display: block;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
   ul.menu li a {
     padding-top: 30px;
     margin-bottom: 200px;
@@ -683,6 +695,14 @@
   .mainteam {
     margin-right: 20px;
   }
+  .mainteam .modal-header img {
+    margin: 0;
+    padding-left: 120px;
+  }
+  .mainteam .manual p {
+    padding-left: 60px;
+    margin: 0;
+  }
   .mainteam_subtitle {
     font-size: 16px;
   }
@@ -712,6 +732,14 @@
   }
   .mainteam hr {
     margin-top: 25px;
+  }
+  .mainteam .modal-header img {
+    margin: 0;
+    padding-left: 21%;
+  }
+  .mainteam .manual p {
+    padding-left: 31%;
+    margin: 0;
   }
   .academyteam {
     margin-right: 20px;
@@ -791,6 +819,9 @@
   }
   .menu_link {
     font-size: 20px;
+  }
+  ul.menu .item-disabled {
+    display: block;
   }
   ul.menu li a {
     padding-top: 30px;
@@ -900,7 +931,7 @@
   }
   .mainteam table {
     margin: 0 auto;
-    margin: 0 10px 0 10px;
+    margin-right: 12%;
   }
   .mainteam table th {
     margin: 0 auto;
@@ -922,6 +953,9 @@
     margin: 0;
     padding-left: 40px;
   }
+  .mainteam .modal-header .modal-anarchy-title {
+    font-size: 26px;
+  }
   .mainteam .manual p {
     padding-left: 60px;
     margin: 0;
@@ -940,7 +974,7 @@
   }
   .academyteam table {
     margin: 0 auto;
-    margin: 0 10px 0 10px;
+    margin-right: 12%;
   }
   .academyteam table th {
     margin: 0 auto;

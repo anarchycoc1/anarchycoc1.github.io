@@ -47,22 +47,23 @@
   .topfive {
     .gold {
       color: gold;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 18px;
     }
     .silver {
       color: silver;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 18px;
     }
     .bronze {
       color: #cd7f32;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 18px;
     }
     &_subtitle {
       font-size: 20px;
       margin: 20px 20px 40px 30px;
+      font-weight: 700;
     }
     &_team {
       margin-left: -20px;
@@ -198,7 +199,7 @@
     }
     &_subtitle {
       font-size: 18px;
-      margin: 20px 20px 2s0px 0;
+      margin: 20px 20px 20px 0;
     }
     &_team {
       & p {
@@ -242,7 +243,7 @@
     }
     & table {
       margin: 0 auto;
-      margin-right: 60px;
+      margin-right: 20%;
       & th {
         padding: 0 10px 0 10px;
         font-size: 14px;
@@ -271,7 +272,7 @@
     }
     & table {
       margin: 0 auto;
-      margin-right: 60px;
+      margin-right: 22%;
       & th {
         padding: 0 10px 0 10px;
         font-size: 14px;
@@ -327,6 +328,9 @@
       font-weight: 900;
       font-size: 14px;
     }
+    &_team p {
+      margin-left: 15%;
+    }
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -374,6 +378,9 @@
     }
   }
   ul.menu {
+    .item-disabled {
+      display: block;
+    }
     li {
       a {
         padding-top: 30px;
@@ -577,6 +584,11 @@
     }
   }
   ul.menu {
+    .item-disabled {
+      display: block;
+      padding-left: 20%;
+      padding-right: 10%;
+    }
     li {
       a {
         padding-top: 30px;
@@ -683,6 +695,22 @@
   }
   .mainteam {
     margin-right: 20px;
+    .modal-header {
+      img {
+        margin: 0;
+        padding-left: 120px;
+      }
+    }
+    .manual {
+      p {
+        padding-left: 60px;
+        margin: 0;
+      }
+    }
+    .modal-body {
+      .crystal {
+      }
+    }
     &_subtitle {
       font-size: 16px;
     }
@@ -713,6 +741,20 @@
     }
     hr {
       margin-top: 25px;
+    }
+    .modal-header {
+      img {
+        margin: 0;
+        padding-left: 21%;
+      }
+      .modal-anarchy-title {
+      }
+    }
+    .manual {
+      p {
+        padding-left: 31%;
+        margin: 0;
+      }
     }
   }
   .academyteam {
@@ -788,6 +830,9 @@
     }
   }
   ul.menu {
+    .item-disabled {
+      display: block;
+    }
     li {
       a {
         padding-top: 30px;
@@ -888,7 +933,7 @@
     }
     & table {
       margin: 0 auto;
-      margin: 0 10px 0 10px;
+      margin-right: 12%;
 
       & th {
         margin: 0 auto;
@@ -913,6 +958,7 @@
         padding-left: 40px;
       }
       .modal-anarchy-title {
+        font-size: 26px;
       }
     }
     .manual {
@@ -937,7 +983,7 @@
     }
     & table {
       margin: 0 auto;
-      margin: 0 10px 0 10px;
+      margin-right: 12%;
 
       & th {
         margin: 0 auto;

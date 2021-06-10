@@ -21,6 +21,10 @@ ul.menu {
           align-items: center;
 }
 
+ul.menu .item-disabled {
+  display: none;
+}
+
 ul.menu li {
   text-shadow: 2px 2px 4px #000;
   font-weight: 700;
